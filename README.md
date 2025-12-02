@@ -7,6 +7,7 @@ Este projeto realiza um estudo comparativo de diferentes modelos de previsão de
 ### Estrutura do Projeto
 
   * **`data_updated.csv`**: O conjunto de dados utilizado para o projeto.
+  * **`RELATORIO.pdf`**: Versão em PDF do relatório final para o professor (gerado a partir de `main.typ`).
   * **`main.py`**: O script principal para executar as comparações de modelos.
   * **`ST_A2.ipynb`**: Um Jupyter notebook com análise exploratória de dados detalhada e avaliação de varios modelos.
   * **`TiDE.ipynb`**: Um Jupyter notebook que replica a funcionalidade de `main.py` em um ambiente interativo.
@@ -57,5 +58,13 @@ O projeto também inclui dois Jupyter Notebooks para análises mais detalhadas:
 
   * **`ST_A2.ipynb`**: Este notebook fornece uma análise exploratória de dados do conjunto de dados e avalia varios modelos, incluindo Regressão Linear, ETS (Exponential Smoothing) e SARIMAX, além de vários modelos de *baseline* (linha de base).
   * **`TiDE.ipynb`**: Este notebook é uma versão interativa do script `main.py`.
+
+-----
+
+### Relatório em PDF para o professor
+
+  * **Arquivo**: `RELATORIO.pdf` (gerado a partir de `main.typ`).
+  * **Conteúdo**: discussão completa do trabalho, incluindo exploração inicial, baselines, diferenciação, ETS, SARIMAX e o comparativo final **TiDE vs PatchTST vs AR(1)** (com tabelas e gráficos de MAE/MASE por horizonte).
+  * **Uso sugerido**: abra o PDF diretamente para leitura; se precisar ajustar ou recompilar, edite `main.typ` e gere o PDF com `typst compile main.typ`.
 
 -----
